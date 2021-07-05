@@ -3,7 +3,6 @@ layout: post
 title: "Testing Jekyl blog style"
 ---
 
+# Welcome 
 
-#Welcome 
-
-** Hello world** testing Jekyl blogging. Lets have a look....
+**Hello world** testing Jekyl blogging. Lets have a look....
