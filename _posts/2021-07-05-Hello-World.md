@@ -1,8 +1,10 @@
 ---
 layout: post
-title: "Testing Jekyl blog style"
+title: "Logo Generator"
 ---
 
 # Welcome 
 
-**Hello world** testing Jekyl blogging. Lets have a look....
+Logo was the first programming language that I ever learnt when I was in the 4th grade. I was really happy to find that python had its own logo module that I then used to create my github profile picture
+
+<img src="../images/logo.png" alt="noimage" class="inline"/>
