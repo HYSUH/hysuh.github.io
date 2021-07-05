@@ -1,1 +1,13 @@
-Hello world
+---
+layout: post
+title: Testing out a blog theme website
+---
+
+
+<ul>
+    {% for post in site.posts %}
+    <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
