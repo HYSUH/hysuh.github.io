@@ -13,10 +13,8 @@ One of the courses I enjoyed the most during my computer science engineering deg
  ```
 
 2. We can then open the file using wireshark
+` wireshark packetcapture.pcap `
 
-``` 
- wireshark packetcapture.pcap 
-```
 3. The next step is to find the SSL handshake you want to analyze. The very first step in the SSL handshake is the `Client Hello`. We can use the filter `tls.handshake.type==1` to filter out all the client hellos
 
 ![Client hello]({{ site.url }}/assets/clienthello.png)
