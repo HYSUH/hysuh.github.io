@@ -15,17 +15,15 @@ One of the courses I enjoyed the most during my computer science engineering deg
 2. We can then open the file using wireshark
 
 ``` 
-wireshark packetcapture.pcap 
+ wireshark packetcapture.pcap 
 ```
-Alternatively we can open wireshark and then open the file from the GUI.
-
 3. The next step is to find the SSL handshake you want to analyze. The very first step in the SSL handshake is the `Client Hello`. We can use the filter `tls.handshake.type==1` to filter out all the client hellos
 
-![Client hello]({{ site.url }}/assets/clienthello.pcapng)
+![Client hello]({{ site.url }}/assets/clienthello.png)
 
 4. We can then select one of the filtered client hello, right click and select "Follow TLS Stream" to view the entire SSL handshake and encypted communication.
 
-![follow ssl stream]({{ site.url }}/assets/followsslstream.pcapng)
+![follow ssl stream]({{ site.url }}/assets/followsslstream.png)
 
 5. If we want to analyze the tcp three way handshake instead(SYN, SYN-ACK, ACK), we can right click and select "Follow TCP Stream". 
 
