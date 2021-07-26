@@ -23,8 +23,8 @@ One of the courses I enjoyed the most during my computer science engineering deg
 
 ![follow ssl stream]({{ site.url }}/assets/followsslstream.png)
 
-5. If we want to analyze the tcp three way handshake instead(SYN, SYN-ACK, ACK), we can right click and select "Follow TCP Stream". 
+5. If we want to analyze the tcp three way handshake instead(`SYN`, `SYN-ACK`, `ACK`), we can right click and select "Follow TCP Stream". 
 
-6. We can easy add filters by choosing what we want to filter on. In the below example we can select a packet select the SYN flag and then we can choose to filter based on this value.
+6. We can easy add filters by choosing what we want to filter on. In the below example we can select a packet select the `SYN` flag and then we can choose to filter based on this value.
 ![follow ssl stream]({{ site.url }}/assets/addfilter.png)
-This technique is really useful to debug issues with connections. For example when we had issues reported of connections dropping, a packet capture revealed that there was a device in the  network that was sending a RST packet which was terminating the tcp connections. Filtering the RST packets using the technique mentioned above helped us figure out and diagnose the issue very quickly.
+This technique is really useful to debug issues with connections. For example when we had issues reported of connections dropping, a packet capture revealed that there was a device in the  network that was sending a `RST` packet which was terminating the tcp connections. Filtering the `RST` packets using the technique mentioned above helped us figure out and diagnose the issue very quickly.
