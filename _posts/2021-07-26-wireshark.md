@@ -5,7 +5,7 @@ author: YS
 tags: Networking
 ---
 
-One of the courses I enjoyed the most during my computer science engineering degree (2001-2005) was computer networking. This was when I learnt the OSI and tcp layers models and was first introduced to the various networking protocols. I wasnt aware of [wireshark](https://www.wireshark.org/) which is an amazing packet analyzer tool that would have made learning and understanding the various networking protocols and concepts much easier. For example we could use the cli tool [tcpdump] (https://www.tcpdump.org/) to capture https traffic on port 443 and then open the file created using wireshark for further analysis to learn more about the https protocol as shown below:
+One of the courses I enjoyed the most during my computer science engineering degree (2001-2005) was computer networking. This was when I learnt the OSI and tcp layers models and was first introduced to the various networking protocols. I wasnt aware of [wireshark](https://www.wireshark.org/) which is an amazing packet analyzer tool that would have made learning and understanding the various networking protocols and concepts much easier. For example we could use the cli tool [tcpdump](https://www.tcpdump.org/) to capture https traffic on port 443 and then open the file created using wireshark for further analysis to learn more about the https protocol as shown below:
 
 1. The following command captures traffic on port 443 on all interfaces and saves the packet capture in a file called packetcapture.pcap
 ```
